@@ -1,0 +1,78 @@
+/* Bianca Rossetti - 2233420 */
+
+html, body {
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+}
+
+/* Add your CSS here */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+tr:not(:last-child) {
+  border-bottom: 5px solid blueviolet;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+}
+
+td:not(:nth-child(3n))
+{
+  border-right: 5px solid blueviolet;
+}
+
+aside {
+  text-align: center;
+}
+
+.xsquare {
+  color: rgb(80, 69, 238);
+}
+
+.osquare {
+  color: rgb(108, 185, 126);
+}
+
+
+/* Styling the button */
+
+#reset {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+  border-radius: 25px;
+  padding: 2px;
+  width: 100px;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+
+#reset:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<!-- Bianca Rossetti - 2233420 -->
+<html lang="en">
+	<head>
+		<title>Tic Tac Toe</title>
+		<meta charset="UTF-8">
+		<script src="checkboard.js"></script>
+		<script src="tictactoe.js"></script>
+		<link rel="stylesheet" type="text/css" href="tictactoe.css" >
+	</head>
+	
+	<body>
+		<main>
+			<h1>Tic Tac Toe</h1>
+			<table id="gameboard">
+				<tbody>
+					<tr>
+						<td></td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td></td><td></td>
+					</tr>
+					
+				</tbody>
+			</table>
+
+			<h2>Current player: <span id="curplayer">X</span></h2>
+			
+			<aside>
+				<h2 id="message">Congratulations, <span id="winningplayer"></span>, you won the game</h2>
+				<button id="reset" type="button">New Game</button>
+			</aside>
+
+		</main>
+	</body>
+</html>
